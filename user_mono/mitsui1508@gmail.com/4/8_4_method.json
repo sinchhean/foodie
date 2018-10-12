@@ -1,0 +1,1 @@
+["echo\u3000\"Food name should be less then 30 letters.\";\r\n\t\theader('location:http:\/\/foodie.cf:9090\/upload\/');\r\n\t\texit;"]

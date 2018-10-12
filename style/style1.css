@@ -1,0 +1,210 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	overfow: auto;
+}
+body{
+	background: url(../images/background/back2.jpg);
+}
+.right li{
+	margin-left: 20px;
+} 
+.lower #feedback2{
+	
+	border: 30px solid transparent;  
+	border-image: url(../images/background/bb.png) 35 round; 
+}
+.lower #feedback2 img{
+	border-radius: 50%;
+}
+
+.lower #feedback1{ 
+border: 30px solid transparent;  
+border-image: url(../images/background/border111.png) 150 round; 
+}
+.lower #feedback1 img{
+	border-radius: 50%;
+}
+input{
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+nav a{
+	text-decoration: none; 
+	color: black;
+} 
+.menu{
+ display: none;
+}
+
+
+.mySlides{
+	height: 100%;
+}
+
+
+ 
+
+
+/*///////////////////////////
+ 
+//////////////////////////// 
+
+///////////////////////////*/
+ 
+/*menu list*/
+
+#find{
+	
+	color: black;
+	text-decoration: none; 
+	margin-left: 200px;
+}
+
+
+
+#many{
+	color:black;
+	text-decoration: none;
+}
+
+.menul{
+	height: 200px;
+	margin-bottom: 30px;
+	width:100%;
+}
+
+.menul img{
+	float: left;
+}
+
+.page{ 
+	margin-left: 300px;
+}
+
+#menulist-n{ 
+	display: inline;
+	width: 800px;
+	font-size: 30px;
+	color:brown;
+	text-decoration: none;
+}
+
+.lpage{
+	width: 600px;
+	text-align: center;
+}
+
+/*///////////////////////////
+
+////////////////////////////
+
+///////////////////////////*/
+
+/*signin*/
+
+
+/*///////////////////////////
+
+////////////////////////////
+
+///////////////////////////*/
+
+/*food_search*/
+.resipi{
+	border: 5px ridge #FFEBCD;
+	border-radius: 10px; 
+}
+/*/////////////////////////////////
+
+//////////////////////////////////
+
+noti////////////*/
+.connect{
+	margin-left:300px;
+}
+#connect_reply{
+	margin-left:50px;
+}
+.page2{
+	margin-left:200px;
+}
+
+/*///////////////////////////
+
+////////////////////////////
+
+///////////////////////////*/
+
+/*help*/
+.help-link{ 
+	height: 1000px;
+	text-align:center;
+	margin: 0% 0% 0 0;   
+	padding:50px;
+}
+ 
+h1{
+	color:#61210B; 
+} 
+.show{
+	margin-left: 0px;
+} 
+   
+.btn input{
+	font-size: 15px;
+	padding:10px 10px;
+	-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;								
+	background-color:#ff8c00;}
+.btn input:hover{
+	background-color: #993300;
+}
+/*////////////////////////////////////
+big screen///////////////////////////
+///////////////////////////////*/
+	
+ @media screen and (min-width: 1140px){
+body{
+	margin :5px 7px;
+}
+.ssmenu{
+	display: none;
+}
+
+.menu{ 
+	display: block;
+	z-index: 1;
+	box-shadow: -6px 0px 5px grey,6px 0px 5px grey;
+	width: 200px; 
+	height: 100%; 
+	text-align: center;
+	position: fixed; 
+}
+
+.menu img{
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+/*/////////////////////////////////
+
+//////////////////////////////////
+
+HOME PAGE////////////*/
+.mySlides{
+	height: 600px;
+}
+
+
+
+.right{
+	margin-left: 230px; 
+	height: auto;
+	min-height: 1300px;
+}
+
+}

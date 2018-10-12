@@ -1,0 +1,27 @@
+.bg-top {
+ position: relative;
+ width: 100%;
+}
+
+.background {
+ position: absolute;
+ top: 45%;
+ width: 100%;
+
+ text-align: center;
+ background:none;
+ opacity: 0.8;
+}
+#name{
+	position: relative;
+	width:50%;
+	height:35px;
+	font-size:20px;   
+}
+#food_search{ 
+	position: relative; 
+	top: 20px;
+	background:none;
+	height:50px; 
+}
+

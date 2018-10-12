@@ -1,0 +1,211 @@
+*{
+
+	margin: 0;
+
+	
+	
+}
+
+body{ 
+	background: url(../images/background/back2.jpg);
+}
+
+
+.menu{
+	border: black solid 1px;
+
+	background: url(../images/background/back2.jpg);
+
+	float: left;
+
+	width: 15%;
+
+	height: 100%;
+
+	text-align: center;
+
+	position: fixed;
+
+}
+
+.menu h1, h2{
+
+	margin-top: 20px;
+
+}
+
+.menu img{
+	margin: 0 auto;
+
+	max-width: 100%;
+
+	height: auto;
+
+}
+
+/*/////////////////////////////////
+
+//////////////////////////////////
+
+HOME PAGE////////////*/
+
+input{
+
+    background-color: white;
+
+    background-repeat: no-repeat;
+
+}
+
+
+
+nav a{
+
+	text-decoration: none;
+
+	color: black;
+
+}
+
+
+
+.right{
+	
+	border: black solid 1px;
+	
+	margin-left: 16%;
+
+	
+
+}
+
+.upper{
+
+	border: black solid 1px;
+
+	background-color: lightyellow;
+
+}
+
+.upper .ing img{
+
+	border-radius: 50%;
+
+}
+
+.lower{
+
+	border: black solid 1px;
+
+	background-color: lightyellow;
+
+}
+
+.lower img{
+
+	border-radius: 50%;
+
+}
+
+/*///////////////////////////
+
+////////////////////////////
+
+///////////////////////////*/
+
+/*menu list*/
+
+#find{
+
+	font-size: 70px;
+
+	color: black;
+
+	text-decoration: none;
+
+	margin-left: 200px;
+
+}
+
+
+
+#many{
+
+	color:black;
+
+	text-decoration: none;
+
+}
+
+.menul{
+
+	height: 200px;
+
+	margin-bottom: 30px;
+
+	width:100%;
+
+}
+
+.menul img{
+
+	float: left;
+
+}
+
+.page{
+
+	margin-left: 300px;
+
+}
+
+#menulist-n{
+
+	font-size: 40px;
+
+	color:lightgreen;
+
+	text-decoration: none;
+
+}
+
+.lpage{
+	width: 600px;
+	text-align: center;
+}
+/*//////////////////
+
+////////////
+
+//////////////////*/
+/*resetpass*/
+
+.form{
+
+	margin: 10% 50% 0 0;   
+	padding:30px;
+	width:50%;
+	background: url(../images/background/back2.jpg);
+}
+
+h1{
+	color:#61210B; 
+}
+
+/*   通常サイズ（大） */
+@media screen and (min-width: 480px) {
+.form{
+
+	margin: 10% 50% 0 0;   
+	padding:30px;
+	background: url(../images/background/back2.jpg);
+
+}
+
+h1{
+	color:#61210B; 
+}
+}
+
+
+
